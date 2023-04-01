@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+.navlist{
+    display: flex;
+    list-style: none;
+    width:86.1%;
+    padding-top: 10px;
+    align-items: center;
+
+}
+.li1{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.li1 li b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.lo {
+    padding-inline: 50px ;
+    color: grey;
+    text-decoration-line: none;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.lo:hover{
+    color: blueviolet;
+}
+
+.lo.ac{
+    background-color: antiquewhite;
+    transform: scale(1.5);
+    mix-blend-mode: multiply;
+}
+.rightnav{
+    display:flex;
+    padding-left: 10px;
+    width: 0%;
+    align-items: center;
+}
+.dre{
+    display:none;
+}
+.dre.ac{
+    display: block;
+}
+.customer{
+    width: 85%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.bar2 table th button{
+    max-width: 20px 20px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration-line: none;
+    border: none;
+    border-radius: 7px;
+}
+.bar2 table th button:hover{
+    color: blueviolet;
+}
+.d1{
+    display: flex;
+    padding-top: 70px;
+}
+.d1 input[type="file"]{
+    display: none;
+}
+.d1 label{
+    display: flex;
+    user-select: none;
+    border: solid rgb(186, 194, 189) 1px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.d1 label ion-icon{
+    font-size: 30px;
+}
+.d1 label p{
+    padding-top: 6.6px;
+}
+.d1 label:hover{
+    cursor: pointer;
+}
+
+.rightnav input{
+    width: 40px;
+    border: none;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.rightnav input:hover{
+    width: 200px;
+    border:black;
+    cursor: pointer;
+    transition: 500ms;
+    padding-left: 30px;
+}
+ 
+ 
+.rightnav ion-icon{
+    position: absolute;
+    font-size: 32px;
+    border: none;
+}
+
+
+.d1 label:active{
+    transform:scale( 0.9);
+}
+
+
+.pad{
+    padding-inline: 30px;
+   
+}
+.th:hover{
+    color: blue;
+}
+.th{
+   border: 20px;
+   padding: 10px;
+   border-radius: 10px; 
+}
+.flex-container{
+
+    display: flex;
+    display: none;
+}
+.flex-container.active{
+
+    display: flex;
+    
+}
+.btn.active{
+    background-color: wheat;
+    mix-blend-mode: multiply;
+    transform: scale(1.5)
+}
+.flex-box{
+    width: 70vh;
+    height: 180px;
+    border: solid grey 1px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    
+}   
+.btle{
+    margin-right: 420px;
+    border: solid grey 1px;
+    background: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+.btle ion-icon{
+    font-size: 20px;
+}
+.btri{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.bot{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+.bot h2{
+    padding-right:280px;
+    font-size: 50px;
+}
+
+.bot ion-icon{
+    font-size:20px;
+    padding: auto;
+    
+}
+.bor{
+    display: flex;
+    border: solid black 1px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
+.p1{
+    padding-top: 20px;
+}
+  
+
+.t1{
+    border: 1px solid rgb(126, 128, 127);
+    background-color: azure;
+    border-radius: 10px;
+    padding: 5px;
+    height: 70px;
+    margin-left: 10px;
+} 
+.down{
+    display: flex;
+    padding: 30px;
+}
+.downl{
+
+    width: 85%;
+}
+.downr{
+    display: flex;
+    align-items: center;
+}
+.downr input{
+    padding: 6px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    background-color: rgba(242, 245, 255, 0.918);
+    border-radius: 10px;
+}
+.downr ion-icon{
+    position: absolute;
+    font-size: 25px;
+}
+.nav3{
+    display: flex;
+    border: solid grey 1px;
+    padding: 10px;
+    align-items: center;
+    margin: 7px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: honeydew;
+}
+.t2{
+    margin-right: 60%;
+}
+.btn2{
+    padding: 5px 10px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+.btn2.act{
+    background-color: bisque;
+    transform: scale(1.5);
+    mix-blend-mode: multiply;
+}
+.pad2{
+    padding-inline:20px ;
+}
+.navr button{
+    border: none;
+    border-radius: 7px;
+}
+.navr button li{
+    list-style-type:disc;
+    
+    font-size: 17px;
+}
+.last{
+    width:99.1%;
+    border: solid black 1px;
+    margin: 5px 10px;
+   
+    border-collapse: collapse;
+}
+.final{
+    display: none;
+    border-radius: 20px;
+}
+.final.act{
+    display: block;
+}
+
+.head{
+    border: solid black 1px;
+}
+.th1{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    border: none;
+}
+.th1 img{
+    height: 34px;
+    width: 40px;
+}
+
+.th2 div{
+    border: solid black 2px;
+    width: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.th2 div img{
+    height: 12px;
+    width: 12px;
+   
+}
+
+.th5{
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.th6 img{
+    height: 34px;
+    width: 68px;
+}
+
+.progress{
+    width:80%;
+    height: 7px;
+    background: aquamarine;
+    border-radius: 10px;
+    display: flex;
+}
+.pro_fill{
+    width:70%;
+    height: 7px;
+    background: darkblue;
+    border-radius: 10px;
+}
+.final td{
+    height: 50px;
+}
+
